@@ -13,6 +13,8 @@
 		63C58CD31B41431A008FEAE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C58CD21B41431A008FEAE1 /* Images.xcassets */; };
 		63C58CD61B41431A008FEAE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C58CD41B41431A008FEAE1 /* LaunchScreen.xib */; };
 		63C58CE21B41431A008FEAE1 /* AttendeesFromCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C58CE11B41431A008FEAE1 /* AttendeesFromCalendarTests.swift */; };
+		63C58CEC1B41439A008FEAE1 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C58CEB1B41439A008FEAE1 /* EventKit.framework */; };
+		63C58CEE1B41703B008FEAE1 /* AttendeesGraber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C58CED1B41703B008FEAE1 /* AttendeesGraber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		63C58CDB1B41431A008FEAE1 /* AttendeesFromCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttendeesFromCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C58CE01B41431A008FEAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63C58CE11B41431A008FEAE1 /* AttendeesFromCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeesFromCalendarTests.swift; sourceTree = "<group>"; };
+		63C58CEB1B41439A008FEAE1 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		63C58CED1B41703B008FEAE1 /* AttendeesGraber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendeesGraber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C58CEC1B41439A008FEAE1 /* EventKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		63C58CBD1B414319008FEAE1 = {
 			isa = PBXGroup;
 			children = (
+				63C58CEB1B41439A008FEAE1 /* EventKit.framework */,
 				63C58CC81B414319008FEAE1 /* AttendeesFromCalendar */,
 				63C58CDE1B41431A008FEAE1 /* AttendeesFromCalendarTests */,
 				63C58CC71B414319008FEAE1 /* Products */,
@@ -79,6 +85,7 @@
 			children = (
 				63C58CCB1B414319008FEAE1 /* AppDelegate.swift */,
 				63C58CCD1B414319008FEAE1 /* ViewController.swift */,
+				63C58CED1B41703B008FEAE1 /* AttendeesGraber.swift */,
 				63C58CCF1B414319008FEAE1 /* Main.storyboard */,
 				63C58CD21B41431A008FEAE1 /* Images.xcassets */,
 				63C58CD41B41431A008FEAE1 /* LaunchScreen.xib */,
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63C58CCE1B414319008FEAE1 /* ViewController.swift in Sources */,
+				63C58CEE1B41703B008FEAE1 /* AttendeesGraber.swift in Sources */,
 				63C58CCC1B414319008FEAE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AttendeesFromCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AttendeesFromCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
