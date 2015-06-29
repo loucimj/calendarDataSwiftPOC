@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63C58CCC1B414319008FEAE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C58CCB1B414319008FEAE1 /* AppDelegate.swift */; };
-		63C58CCE1B414319008FEAE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C58CCD1B414319008FEAE1 /* ViewController.swift */; };
-		63C58CD11B414319008FEAE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C58CCF1B414319008FEAE1 /* Main.storyboard */; };
-		63C58CD31B41431A008FEAE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C58CD21B41431A008FEAE1 /* Images.xcassets */; };
-		63C58CD61B41431A008FEAE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C58CD41B41431A008FEAE1 /* LaunchScreen.xib */; };
 		63C58CE21B41431A008FEAE1 /* AttendeesFromCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C58CE11B41431A008FEAE1 /* AttendeesFromCalendarTests.swift */; };
 		63C58CEC1B41439A008FEAE1 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C58CEB1B41439A008FEAE1 /* EventKit.framework */; };
-		63C58CEE1B41703B008FEAE1 /* AttendeesGraber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C58CED1B41703B008FEAE1 /* AttendeesGraber.swift */; };
+		63C58D0A1B4183B1008FEAE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C58D011B4183B1008FEAE1 /* AppDelegate.swift */; };
+		63C58D0B1B4183B1008FEAE1 /* AttendeesGraber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C58D021B4183B1008FEAE1 /* AttendeesGraber.swift */; };
+		63C58D0C1B4183B1008FEAE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C58D031B4183B1008FEAE1 /* LaunchScreen.xib */; };
+		63C58D0D1B4183B1008FEAE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C58D051B4183B1008FEAE1 /* Main.storyboard */; };
+		63C58D0E1B4183B1008FEAE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C58D071B4183B1008FEAE1 /* Images.xcassets */; };
+		63C58D0F1B4183B1008FEAE1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C58D081B4183B1008FEAE1 /* Info.plist */; };
+		63C58D101B4183B1008FEAE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C58D091B4183B1008FEAE1 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +30,17 @@
 
 /* Begin PBXFileReference section */
 		63C58CC61B414319008FEAE1 /* AttendeesFromCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendeesFromCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		63C58CCA1B414319008FEAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63C58CCB1B414319008FEAE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63C58CCD1B414319008FEAE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		63C58CD01B414319008FEAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63C58CD21B41431A008FEAE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		63C58CD51B41431A008FEAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		63C58CDB1B41431A008FEAE1 /* AttendeesFromCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttendeesFromCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C58CE01B41431A008FEAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63C58CE11B41431A008FEAE1 /* AttendeesFromCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeesFromCalendarTests.swift; sourceTree = "<group>"; };
 		63C58CEB1B41439A008FEAE1 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
-		63C58CED1B41703B008FEAE1 /* AttendeesGraber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendeesGraber.swift; sourceTree = "<group>"; };
+		63C58D011B4183B1008FEAE1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63C58D021B4183B1008FEAE1 /* AttendeesGraber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendeesGraber.swift; sourceTree = "<group>"; };
+		63C58D041B4183B1008FEAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		63C58D061B4183B1008FEAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63C58D071B4183B1008FEAE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63C58D081B4183B1008FEAE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C58D091B4183B1008FEAE1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +65,8 @@
 		63C58CBD1B414319008FEAE1 = {
 			isa = PBXGroup;
 			children = (
+				63C58D001B4183B1008FEAE1 /* AttendeesFrmCalendar */,
 				63C58CEB1B41439A008FEAE1 /* EventKit.framework */,
-				63C58CC81B414319008FEAE1 /* AttendeesFromCalendar */,
 				63C58CDE1B41431A008FEAE1 /* AttendeesFromCalendarTests */,
 				63C58CC71B414319008FEAE1 /* Products */,
 			);
@@ -78,28 +79,6 @@
 				63C58CDB1B41431A008FEAE1 /* AttendeesFromCalendarTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		63C58CC81B414319008FEAE1 /* AttendeesFromCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				63C58CCB1B414319008FEAE1 /* AppDelegate.swift */,
-				63C58CCD1B414319008FEAE1 /* ViewController.swift */,
-				63C58CED1B41703B008FEAE1 /* AttendeesGraber.swift */,
-				63C58CCF1B414319008FEAE1 /* Main.storyboard */,
-				63C58CD21B41431A008FEAE1 /* Images.xcassets */,
-				63C58CD41B41431A008FEAE1 /* LaunchScreen.xib */,
-				63C58CC91B414319008FEAE1 /* Supporting Files */,
-			);
-			path = AttendeesFromCalendar;
-			sourceTree = "<group>";
-		};
-		63C58CC91B414319008FEAE1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				63C58CCA1B414319008FEAE1 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		63C58CDE1B41431A008FEAE1 /* AttendeesFromCalendarTests */ = {
@@ -117,6 +96,20 @@
 				63C58CE01B41431A008FEAE1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63C58D001B4183B1008FEAE1 /* AttendeesFrmCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				63C58D011B4183B1008FEAE1 /* AppDelegate.swift */,
+				63C58D021B4183B1008FEAE1 /* AttendeesGraber.swift */,
+				63C58D031B4183B1008FEAE1 /* LaunchScreen.xib */,
+				63C58D051B4183B1008FEAE1 /* Main.storyboard */,
+				63C58D071B4183B1008FEAE1 /* Images.xcassets */,
+				63C58D081B4183B1008FEAE1 /* Info.plist */,
+				63C58D091B4183B1008FEAE1 /* ViewController.swift */,
+			);
+			path = AttendeesFrmCalendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +192,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63C58CD11B414319008FEAE1 /* Main.storyboard in Resources */,
-				63C58CD61B41431A008FEAE1 /* LaunchScreen.xib in Resources */,
-				63C58CD31B41431A008FEAE1 /* Images.xcassets in Resources */,
+				63C58D0F1B4183B1008FEAE1 /* Info.plist in Resources */,
+				63C58D0E1B4183B1008FEAE1 /* Images.xcassets in Resources */,
+				63C58D0C1B4183B1008FEAE1 /* LaunchScreen.xib in Resources */,
+				63C58D0D1B4183B1008FEAE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +213,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63C58CCE1B414319008FEAE1 /* ViewController.swift in Sources */,
-				63C58CEE1B41703B008FEAE1 /* AttendeesGraber.swift in Sources */,
-				63C58CCC1B414319008FEAE1 /* AppDelegate.swift in Sources */,
+				63C58D101B4183B1008FEAE1 /* ViewController.swift in Sources */,
+				63C58D0B1B4183B1008FEAE1 /* AttendeesGraber.swift in Sources */,
+				63C58D0A1B4183B1008FEAE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +238,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		63C58CCF1B414319008FEAE1 /* Main.storyboard */ = {
+		63C58D031B4183B1008FEAE1 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				63C58CD01B414319008FEAE1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		63C58CD41B41431A008FEAE1 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63C58CD51B41431A008FEAE1 /* Base */,
+				63C58D041B4183B1008FEAE1 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		63C58D051B4183B1008FEAE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C58D061B4183B1008FEAE1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -419,6 +413,7 @@
 				63C58CE71B41431A008FEAE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63C58CE81B41431A008FEAE1 /* Build configuration list for PBXNativeTarget "AttendeesFromCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +422,7 @@
 				63C58CEA1B41431A008FEAE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

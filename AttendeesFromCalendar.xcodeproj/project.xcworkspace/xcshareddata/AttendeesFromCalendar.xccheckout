@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DF2FC3E0-31F6-4E53-8861-3BA3C0769245</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AttendeesFromCalendar</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CB2F3378C1AD464AF87FB81EAB5D0BED6337E13A</key>
+		<string>https://github.com/loucimj/calendarDataSwiftPOC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AttendeesFromCalendar.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CB2F3378C1AD464AF87FB81EAB5D0BED6337E13A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/loucimj/calendarDataSwiftPOC.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CB2F3378C1AD464AF87FB81EAB5D0BED6337E13A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB2F3378C1AD464AF87FB81EAB5D0BED6337E13A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>calendarDataSwiftPOC</string>
+		</dict>
+	</array>
+</dict>
+</plist>
