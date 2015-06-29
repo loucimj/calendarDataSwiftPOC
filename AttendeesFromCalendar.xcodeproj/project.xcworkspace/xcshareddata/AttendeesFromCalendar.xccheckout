@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EDE79CF6-CCA2-4015-B89E-C0AA705A511B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AttendeesFromCalendar</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>515DB3BE97F86289B22EB8A06E6A891794EB9AB4</key>
+		<string>/Users/panktipatel/Documents/Swift%20Examples/AttendeesFromCalendar</string>
+		<key>CB2F3378C1AD464AF87FB81EAB5D0BED6337E13A</key>
+		<string>https://github.com/loucimj/calendarDataSwiftPOC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AttendeesFromCalendar.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>515DB3BE97F86289B22EB8A06E6A891794EB9AB4</key>
+		<string>../..</string>
+		<key>CB2F3378C1AD464AF87FB81EAB5D0BED6337E13A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>/Users/panktipatel/Documents/Swift%20Examples/AttendeesFromCalendar</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>515DB3BE97F86289B22EB8A06E6A891794EB9AB4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB2F3378C1AD464AF87FB81EAB5D0BED6337E13A</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>515DB3BE97F86289B22EB8A06E6A891794EB9AB4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AttendeesFromCalendar</string>
+		</dict>
+	</array>
+</dict>
+</plist>
