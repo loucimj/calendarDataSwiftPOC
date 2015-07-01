@@ -16,8 +16,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let myClassObject = AttandeesGraber()
-        myClassObject.fetchAttendeesFromCalendar(fromNoOfDaysAgo: 1)
-        print(myClassObject.attandeeEmail)
+        myClassObject.fetchAttendeesFromCalendar(fromNoOfDaysAgo: 15)
+        dispatch_async(dispatch_get_main_queue(), { () -> Void in
+        
+            print(myClassObject.attandeeEmail)
+        })
+        
     }
     
     override func didReceiveMemoryWarning() {

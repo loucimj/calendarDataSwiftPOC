@@ -38,32 +38,37 @@ class AttandeesGraber {
     
     func fetchAttendeesFromCalendar(#fromNoOfDaysAgo:NSTimeInterval){
         
+        //Perform read task in background
         
-        // Create a predicate value with start date a year before and end date a year after the current date.
-        let yearSeconds = fromNoOfDaysAgo * Double(TimeUnit.Day.rawValue) as NSTimeInterval;
-        let predicate = eventStore.predicateForEventsWithStartDate(NSDate().dateByAddingTimeInterval(-yearSeconds), endDate: NSDate(), calendars: nil)
-        
-        // Get an array with all events.
-        var events = eventStore.eventsMatchingPredicate(predicate)
-        
-        // iterate eventsArray to fetch attendees from EKParticipant
-        if let eventsArray = events {
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), { // 1
             
-            for index:Int in 0..<eventsArray.count{
+            // Create a predicate value with start date a year before and end date a year after the current date.
+            let yearSeconds = fromNoOfDaysAgo * Double(TimeUnit.Day.rawValue) as NSTimeInterval;
+            let predicate = self.eventStore.predicateForEventsWithStartDate(NSDate().dateByAddingTimeInterval(-yearSeconds), endDate: NSDate(), calendars: nil)
+            
+            // Get an array with all events.
+            var events = self.eventStore.eventsMatchingPredicate(predicate)
+            
+            // iterate eventsArray to fetch attendees from EKParticipant
+            if let eventsArray = events {
                 
-                var currentEvent:EKEvent = eventsArray[index] as! EKEvent
-                if let arrParticipants = currentEvent.attendees{
-                    for participant in arrParticipants as! [EKParticipant]{
-                        
-                        var dicFromstring : Dictionary = returnDictionaryFromString(description: participant.description)
-                        let email:String = dicFromstring["email"]!
-                        attandeeEmail.insert(email, atIndex: 0)
-                    }
+                for index:Int in 0..<eventsArray.count{
                     
+                    var currentEvent:EKEvent = eventsArray[index] as! EKEvent
+                    if let arrParticipants = currentEvent.attendees{
+                        for participant in arrParticipants as! [EKParticipant]{
+                            
+                            var dicFromstring : Dictionary = self.returnDictionaryFromString(description: participant.description)
+                            let email:String = dicFromstring["email"]!
+                            self.attandeeEmail.insert(email, atIndex: 0)
+                        }
+                        
+                    }
                 }
+                
             }
-            
-        }
+        });
+        
     }
     
     func returnDictionaryFromString (#description:String) -> Dictionary<String,String>{
